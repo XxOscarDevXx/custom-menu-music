@@ -1,0 +1,39 @@
+
+
+
+
+{
+	"geode": "4.4.0",
+	"gd": {
+		"win": "2.2074",
+		"android": "2.2074",
+		"mac": "2.2074",
+		"ios": "2.2074"
+	},
+	"id": "oscar.custom-menu-music",
+	"name": "custom-menu-music",
+	"version": "v1.0.0",
+	"developer": "Oscar",
+	"description": "Change the background music of Geometry Dash! If you see any errors, post an issue in the GitHub.",
+	"settings": {
+		"custom-music-path": {
+			"type": "file",
+			"name": "Custom Menu Music",
+			"default": {
+				"win": "",
+				"mac": "",
+				"android": "",
+				"ios": ""
+			},
+			"control": {
+				"dialog": "open",
+				"filters": [
+					{
+						"files": ["*.mp3", "*.ogg", "*.wav"],
+						"description": "Audio Files"
+					}
+				]
+			}
+		}
+	}
+}
